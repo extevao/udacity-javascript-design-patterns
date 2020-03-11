@@ -1,4 +1,4 @@
-## Requisitos do projeto para o Cat Clicker
+## Requisitos do projeto para o Cat Clicker 1.0
 
 ### Visuais
 - O aplicativo deve exibir uma foto de um gato e um número de cliques.
