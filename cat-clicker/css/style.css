@@ -1,0 +1,9 @@
+img {
+    width: 25%;
+    height: 25%;
+    cursor: pointer;
+}
+
+.container-center {
+    align-items: center;
+}
