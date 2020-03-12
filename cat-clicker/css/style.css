@@ -1,12 +1,21 @@
+body {
+    background: #ccc;
+}
+
+div .container {
+    width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    background: #fff;
+}
+
 img {
     width: 25%;
     height: 25%;
     cursor: pointer;
 }
 
-.container {
-    align-items: center;
-}
+
 
 figcaption span {
     margin-left: 5px;
