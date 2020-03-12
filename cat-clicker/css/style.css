@@ -4,6 +4,10 @@ img {
     cursor: pointer;
 }
 
-.container-center {
+.container {
     align-items: center;
+}
+
+figcaption span {
+    margin-left: 5px;
 }

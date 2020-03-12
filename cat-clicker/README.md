@@ -12,7 +12,7 @@
 ![](/cat-clicker/img/cat-one.jpg)
 
 
-### Requisitos do Cat Clicker 2
+### Requisitos do Cat Clicker 2.0
 
 ### Novos requisitos do projeto para o Cat Clicker
 
