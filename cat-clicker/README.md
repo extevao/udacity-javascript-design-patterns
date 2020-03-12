@@ -9,7 +9,7 @@
 - O número de cliques deve ser incrementado quando a foto de gato é clicada.
 
 ### Inspiração
-[Imagem gato](https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=426)
+[Imagem gato](/cat-clicker/img/cat-one.jpg)
 
 
 ### Requisitos do Cat Clicker 2
@@ -24,7 +24,7 @@
 - As especificidades do layout não importam; então, você escolhe o estilo.
 
 ## Interação
--- O número de cliques deve ser incrementado quando cada foto de gato é clicada.
+- O número de cliques deve ser incrementado quando cada foto de gato é clicada.
 
 ## Inspiração
 ![](/cat-clicker/img/cat-two.jpg)
