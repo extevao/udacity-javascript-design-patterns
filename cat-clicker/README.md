@@ -9,7 +9,7 @@
 - O número de cliques deve ser incrementado quando a foto de gato é clicada.
 
 ### Inspiração
-[Imagem gato](/cat-clicker/img/cat-one.jpg)
+![](/cat-clicker/img/cat-one.jpg)
 
 
 ### Requisitos do Cat Clicker 2
