@@ -2,14 +2,16 @@
 
 
 body {
+    background-color: #dddddd;
 }
 
 div.container {
     display: flex;
-    width: 800px;
-    margin: 0 auto;
+    width: 75%;
+    margin: 0 auto 0px auto;
     align-items: center;
-    background: #fff;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
 }
 
 figure.foto-legenda {
@@ -27,8 +29,6 @@ figure.foto-legenda img {
 figure.foto-legenda figcaption h3 {
     text-align: center;
 }
-
-
 
 figcaption span {
     margin-left: 5px;

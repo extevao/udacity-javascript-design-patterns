@@ -71,7 +71,7 @@ function creatCatElement(cat) {
 
     function handleClickCat(cat, figcaption) {
         return (event) => {
-            console.log('[handleClickCat]', { event, cat, figcaption })
+            // console.log('[handleClickCat]', { event, cat, figcaption })
             
             cat.amountClicks++
 
