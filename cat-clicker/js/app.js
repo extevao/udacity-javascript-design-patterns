@@ -38,6 +38,7 @@ function creatCatElement(cat) {
         const figcaption = createFigcaption(cat)
         const image = createImg(cat, handleClickCat(cat, figcaption))
 
+        figure.className = 'foto-legenda'
         figure.appendChild(image)
         figure.appendChild(figcaption)
 
