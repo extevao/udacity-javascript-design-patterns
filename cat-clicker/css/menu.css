@@ -2,7 +2,7 @@
 
 header {
     margin-top: -10px;
-    border-bottom: 2px #0c5a1d solid;
+    border-bottom: 2px solid #0c5a1d ;
     margin-bottom: 10px;
 }
 
@@ -14,10 +14,9 @@ nav#menu {
 
 
 nav#menu h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #606060;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, .6); */
 }
 
 nav#menu ul {
