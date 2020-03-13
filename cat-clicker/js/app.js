@@ -28,51 +28,55 @@ function renderListCats() {
 }
 
 function creatCatElement(cat) {
-    function handleClickCat(cat, span) {
-        return (event) => {
-            console.log('[handleClickCat]', { event, cat, span })
-            cat.amountClicks++
-            span.innerText = `Quantidade de cliques: ${cat.amountClicks}`   
-        }
+    const container = document.querySelector('.container')
+    const figure = createFigure()
+
+    container.appendChild(figure)
+
+    function createFigure() {
+        const figure = document.createElement('figure')
+        const figcaption = createFigcaption(cat)
+        const image = createImg(cat, handleClickCat(cat, figcaption))
+
+        figure.appendChild(image)
+        figure.appendChild(figcaption)
+
+        return figure
     }
 
-    function createFigcaption(span, catName) {
+
+    function createFigcaption(cat) {
         const figcaption = document.createElement('figcaption')
+        const h3 = document.createElement('h3')
+        const p = document.createElement('p')
+
+        h3.textContent = cat.name
+        p.textContent = `Quantidade de cliques: ${cat.amountClicks}`
        
-        figcaption.innerText = catName
-        figcaption.appendChild(span)
+        figcaption.appendChild(h3)
+        figcaption.appendChild(p)
         
         return figcaption
     }
 
-    function createSpan() {
-        const span = document.createElement('span')
-        
-        span.innerHTML = 'Quantidade de cliques: 0'
-
-        return span
-    }
-
-    function createImg(url, span, cat) {
+    function createImg(cat, handleClick) {
         const img = document.createElement('img')
 
         img.src = cat.image_path
-        img.addEventListener('click', handleClickCat(cat, span))
+        img.addEventListener('click', handleClick)
 
         return img 
     }
 
-    const container = document.querySelector('.container')
-    const figure = document.createElement('figure')
-    const span = createSpan()
-    const figcaption = createFigcaption(span)
-    const image = createImg(cat.image_path, span, cat)
+    function handleClickCat(cat, figcaption) {
+        return (event) => {
+            console.log('[handleClickCat]', { event, cat, figcaption })
+            
+            cat.amountClicks++
 
-  
-    figure.appendChild(image)
-    figure.appendChild(figcaption)
-
-    container.appendChild(figure)
+            figcaption.lastElementChild.textContent = `Quantidade de cliques: ${cat.amountClicks}`
+        }
+    }
 }
 
 
